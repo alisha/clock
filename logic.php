@@ -4,14 +4,14 @@ $hour = intval(date('G'));
 
 if ($hour >= 5 && $hour < 11) {
 	$image = 'morning.png';
-	$background = '#865f86';
+	$class = 'morning';
 } elseif ($hour >= 11 && $hour < 16) {
 	$image = 'afternoon.png';
-	$background = '#2c87c8';
+	$class = 'afternoon';
 } elseif ($hour >= 16 && $hour < 20) {
 	$image = 'evening.png';
-	$background = '#c7b02f';
+	$class = 'evening';
 } else {
 	$image = 'night.png';
-	$background = '#180629';
+	$class = 'night';
 }

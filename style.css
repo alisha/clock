@@ -1,0 +1,21 @@
+h1 {
+	font-family: 'Helvetica';
+	color: white;
+	text-align: center;
+}
+
+.morning {
+	background-color: #865f86;
+}
+
+.afternoon {
+	background-color: #2c87c8;
+}
+
+.evening {
+	background-color: #c7b02f;
+}
+
+.night {
+	background-color: #180629;
+}
